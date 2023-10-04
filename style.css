@@ -26,15 +26,12 @@ body {
 
 .box {
     background-color: white; 
-    margin: 150px 30% 150px 30%;
+    margin: 150px auto;
     padding: 30px;
     width: 550px;
+    box-sizing: border-box;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 5px grey;
-    /* prvni px: odsazeni stinu doprava
-       druhe px: odsazeni stinu dolu 
-       treti px: intenzita rozmazani okraju stinu
-       ctvrte px: velikost stinu kolem boxu*/    
 }
 
 
@@ -42,7 +39,6 @@ body {
 
 .profil-photo {
     height: 150px;
-    width: 150px;
     border: 3px solid white;
     border-radius: 50%;
     margin: -105px 0 0 445px;
@@ -76,7 +72,7 @@ body {
     text-align: center;
     width: 100%;
     border-radius: 5px;
-    padding: 10px 0 10px 0;
+    padding: 10px 0;
 
  }
 
